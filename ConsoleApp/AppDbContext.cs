@@ -17,7 +17,7 @@ namespace ConsoleApp
         {
             // ...
 
-            // Uppdatera sökvägen för att använda absolut sökväg
+            // sökväg
             string dbPath = "C:\\Projects\\Application\\ConsoleApp\\ConsoleApp\\Data\\local_db.mdf";
 
             optionsBuilder.UseSqlServer($"Server=(localdb)\\mssqllocaldb;AttachDbFilename={dbPath};Trusted_Connection=True;",
